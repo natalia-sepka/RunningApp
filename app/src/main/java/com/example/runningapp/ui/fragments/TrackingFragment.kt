@@ -62,11 +62,14 @@ class TrackingFragment : Fragment(R.layout.fragment_tracking) {
                 moveCameraToUser()
             }
         )
-        TrackingService.timeRunInMillis.observe(viewLifecycleOwner, Observer {
-            currentTimeMillis = it
-            val formattedTime = TrackingUtility.getFormattedStopWatchTime(currentTimeMillis)
-            tvTimer.text = formattedTime
-        })
+        TrackingService.timeRunInMillis.observe(
+            viewLifecycleOwner,
+            Observer {
+                currentTimeMillis = it
+                val formattedTime = TrackingUtility.getFormattedStopWatchTime(currentTimeMillis)
+                tvTimer.text = formattedTime
+            }
+        )
     }
 
     private fun toggleRun() {
