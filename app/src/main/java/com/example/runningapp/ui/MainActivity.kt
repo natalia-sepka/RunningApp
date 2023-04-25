@@ -38,7 +38,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun navigateToTrackingFragmentIfNeeded(intent: Intent?) {
-        if(intent?.action == ACTION_SHOW_TRACKING_FRAGMENT) {
+        if (intent?.action == ACTION_SHOW_TRACKING_FRAGMENT) {
             navHostFragment.findNavController().navigate(R.id.action_global_tracking_fragment)
         }
     }
