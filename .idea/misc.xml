@@ -4,6 +4,7 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="app/src/main/res/drawable/ic_run.xml" value="0.164" />
+        <entry key="app/src/main/res/layout-land/fragment_statistics.xml" value="0.26763668430335097" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.1546875" />
         <entry key="app/src/main/res/layout/fragment_run.xml" value="0.1546875" />
         <entry key="app/src/main/res/layout/fragment_settings.xml" value="0.1546875" />
@@ -11,6 +12,7 @@
         <entry key="app/src/main/res/layout/fragment_statistics.xml" value="0.1546875" />
         <entry key="app/src/main/res/layout/fragment_tracking.xml" value="0.1546875" />
         <entry key="app/src/main/res/layout/item_run.xml" value="0.1546875" />
+        <entry key="app/src/main/res/layout/marker_view.xml" value="0.2776268115942029" />
         <entry key="app/src/main/res/menu/bottom_nav_menu.xml" value="0.31614583333333335" />
         <entry key="app/src/main/res/menu/toolbar_tracking_menu.xml" value="0.31614583333333335" />
       </map>
